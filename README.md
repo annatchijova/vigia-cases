@@ -5,7 +5,6 @@
 Curated by **Anna Tchijova** | Verified by the VIGÍA Collective (Claude, Kimi, Gemini, DeepSeek, ChatGPT, Qwen)
 Prepared for the **SANS FIND EVIL Hackathon 2026**
 
-> 🇦🇷 [Versión en español → README_ES.md](./README_ES.md)
 
 ---
 
@@ -27,7 +26,6 @@ Each case includes:
 vigia-cases/
 ├── LICENSE                    Apache 2.0
 ├── README.md                  This file (English)
-├── README_ES.md               Spanish version
 ├── SCORING_GUIDE.md           How to score agents against this dataset
 ├── index.json                 Global index of all cases + metadata
 ├── hashes.sha256              SHA-256 hashes of every file in the repo
