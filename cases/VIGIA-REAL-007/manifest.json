@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.1",
+  "case_id": "VIGIA-REAL-007",
+  "generated_at": "2026-05-29T22:16:20.145405+00:00",
+  "files": [
+    {
+      "filename": "case.json",
+      "sha256": "ec771b1711f40ff50d7ac6e1aed30335b49f01372fa9215e8dfc0e48681da463",
+      "size_bytes": 2757,
+      "role": "agent_input"
+    },
+    {
+      "filename": "ground_truth.json",
+      "sha256": "7d8bbf091b3a900e892406e3ef2fb417dffad12f5f5f81253db866483f3a0a7c",
+      "size_bytes": 1489,
+      "role": "scoring_reference"
+    },
+    {
+      "filename": "manifest.json",
+      "sha256": "6d3738a8dedb4adbd40982d70dbe6808925c47d721bb6599abf52f864ca9249a",
+      "size_bytes": 509,
+      "role": "integrity"
+    }
+  ]
+}

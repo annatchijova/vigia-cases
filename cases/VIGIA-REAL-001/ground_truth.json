@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.1",
+  "case_id": "VIGIA-REAL-001",
+  "verdict": "MALICE",
+  "confidence_threshold": 95,
+  "carnegie_pattern": null,
+  "peirce_classification": {
+    "firstness": "Presence of multiple wireless hacking tools and network captures on a laptop",
+    "secondness": "Records link the device to Greg Schardt who uses the alias Mr. Evil, and traffic captures of third parties are found",
+    "thirdness": "The suspect systematically performs war driving near WiFi hotspots to intercept communications and steal financial credentials"
+  },
+  "mitre_ttps": [
+    "T1040",
+    "T1552",
+    "T1567",
+    "T1071",
+    "T1018"
+  ],
+  "key_iocs": [
+    {
+      "type": "email",
+      "value": "mrevilrulez@yahoo.com",
+      "context": "ART-005:email_header"
+    },
+    {
+      "type": "email",
+      "value": "whoknowsme@sbcglobal.net",
+      "context": "ART-005:email_header"
+    },
+    {
+      "type": "file_hash",
+      "value": "aee4fcd9301c03b3b054623ca261959a",
+      "context": "ART-004:file_metadata"
+    },
+    {
+      "type": "file_path",
+      "value": "C:\\Documents",
+      "context": "ART-002:network_flow"
+    }
+  ],
+  "null_hypothesis": "Greg Schardt is a legitimate security professional who analyzes networks as part of his penetration testing work",
+  "usability_tier": "score_against",
+  "scoring_notes": "Self-validates via published MD5 + NIST answer key. Heavily documented online — read agent scores accordingly.",
+  "_generated_at": "2026-05-29T22:16:20.145405+00:00"
+}
