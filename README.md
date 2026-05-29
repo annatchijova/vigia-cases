@@ -109,6 +109,12 @@ python3 run_case.py cases/VIGIA-REAL-007/case.json \
 
 ---
 
+## Note on evidence
+
+This repository distributes structured forensic abstractions (JSON case descriptors) derived from public datasets. Raw evidence files (disk images, memory dumps, pcap files) are referenced via URL but not redistributed. Users must download raw evidence directly from the canonical sources listed in each case.
+
+---
+
 ## Integrity verification
 
 ```bash
@@ -144,8 +150,8 @@ Source datasets are from verified public sources with their own licenses:
 
 ## Credits
 
-Cases curated by **Anna Tchijova** over two days on a slow connection.
-Ground truth built by the **VIGÍA Collective** with cross-audit by 7 models.
+Cases curated and human-verified by **Anna Tchijova**.
+Ground truth verified through multi-model cross-audit (Claude, Kimi, Gemini, DeepSeek, ChatGPT, Qwen) with human oversight.
 Hash verification confirmed against canonical sources.
 
 Main project: [github.com/annatchijova/vigia-intent-analysis](https://github.com/annatchijova/vigia-intent-analysis)
