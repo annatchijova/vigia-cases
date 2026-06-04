@@ -19,12 +19,12 @@
   "key_iocs": [
     {
       "type": "email",
-      "value": "aman.informat.personall@gmail.com",
+      "value": "iaman.informant.personal@gmail.com",
       "context": "ART-004:bash_history"
     },
     {
       "type": "email",
-      "value": "jaman.informant@nist.gov",
+      "value": "iaman.informant@nist.gov",
       "context": "ART-002:email_header"
     },
     {

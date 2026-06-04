@@ -26,7 +26,7 @@
     },
     {
       "artifact_id": "ART-002",
-      "content": "From: spy.conspirator@nist.gov | To: jaman.informant@nist.gov | Subject: (important request) | Body: conformal But, I need a more data. Do your best. | Date: 2015-03-23 | Follow-up: Subject 'Last request' - 2015-03-24 09:26: This is the last request. I want to get the remaining data.",
+      "content": "From: spy.conspirator@nist.gov | To: iaman.informant@nist.gov | Subject: (important request) | Body: conformal But, I need a more data. Do your best. | Date: 2015-03-23 | Follow-up: Subject 'Last request' - 2015-03-24 09:26: This is the last request. I want to get the remaining data.",
       "forensic_anomalies": [
         "Emails from an external domain (nist.gov) requesting confidential data",
         "Conspiratorial language ('conformal', 'I need more data')"
@@ -46,7 +46,7 @@
     },
     {
       "artifact_id": "ART-004",
-      "content": "Google Drive installed and logged in with aman.informat.personall@gmail.com | Files uploaded to Google Drive and shared | Email sent: 'Login is below.' | CCleaner and Eraser installed afterwards",
+      "content": "Google Drive installed and logged in with iaman.informant.personal@gmail.com | Files uploaded to Google Drive and shared | Email sent: 'Login is below.' | CCleaner and Eraser installed afterwards",
       "forensic_anomalies": [
         "Use of personal Gmail account to exfiltrate corporate data",
         "Installation of anti-forensic tools (CCleaner, Eraser) after exfiltration"
