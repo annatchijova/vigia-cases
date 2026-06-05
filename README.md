@@ -153,3 +153,14 @@ Ground truth verified through multi-model cross-audit (Claude, Kimi, Gemini, Dee
 Hash verification confirmed against canonical sources.
 
 Main project: [github.com/annatchijova/vigia-intent-analysis](https://github.com/annatchijova/vigia-intent-analysis)
+
+---
+
+## Contributors
+
+| Contributor | Contribution |
+|-------------|-------------|
+| [@rjonhaas](https://github.com/rjonhaas) | PCAP verification of VIGIA-REAL-007 against Digital Corpora source; primary-source audit of VIGIA-REAL-001 against NIST CFReDS. Corrected 6 IOCs, 2 MITRE TTPs, and 1 scoring note across both cases. |
+
+Corrections verified against canonical sources and integrated with updated SHA-256 hashes.
+If you find a discrepancy, open an issue — every fix makes the benchmark more solid.
