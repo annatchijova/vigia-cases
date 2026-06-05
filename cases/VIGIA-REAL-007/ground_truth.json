@@ -17,12 +17,7 @@
   "key_iocs": [
     {
       "type": "email",
-      "value": "badguy@hotmail.com",
-      "context": "ART-002:email_header"
-    },
-    {
-      "type": "email",
-      "value": "jcoach@gmail.com",
+      "value": "jcoachj@gmail.com",
       "context": "ART-002:email_header"
     },
     {

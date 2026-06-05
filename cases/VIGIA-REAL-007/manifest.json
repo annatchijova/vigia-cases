@@ -5,14 +5,14 @@
   "files": [
     {
       "filename": "case.json",
-      "sha256": "ec771b1711f40ff50d7ac6e1aed30335b49f01372fa9215e8dfc0e48681da463",
-      "size_bytes": 2757,
+      "sha256": "f2be2c54be2f02e26ba1add373502fd3b23009a00cbef6a25175caf248a043fb",
+      "size_bytes": 2907,
       "role": "agent_input"
     },
     {
       "filename": "ground_truth.json",
-      "sha256": "7d8bbf091b3a900e892406e3ef2fb417dffad12f5f5f81253db866483f3a0a7c",
-      "size_bytes": 1489,
+      "sha256": "b0909f05aebf0099d49f9750f6464e9295846d9b461d9964785e5afa3350fcfd",
+      "size_bytes": 1377,
       "role": "scoring_reference"
     },
     {

@@ -16,7 +16,7 @@
   "artifacts": [
     {
       "artifact_id": "ART-001",
-      "content": "PCAP ~60MB | External source IP: 140.247.62.34 (student dormitory) | Internal NAT IP: 192.168.15.4 | MAC address: 00:17:f2:e2:c0:ce (Apple device) | User Agent: Internet Explorer 6 on Windows XP SP2 | Service used: willselfdestruct.com",
+      "content": "PCAP ~60MB | External source IP: 140.247.62.34 (student dormitory) | Internal NAT IP: 192.168.15.4 | MAC address: 00:17:f2:e2:c0:ce (Apple device) | User Agent: Firefox 2.0.0.16 / Mac OS X (dominant, 2463 requests); Safari 3.1.2 / Mac OS X (632); iTunes Mac (468); IE6/WinXP SP2 (475, minority) — machine is unambiguously Mac OS X 10.5.4 Leopard | Service used: willselfdestruct.com",
       "forensic_anomalies": [
         "Gmail traffic with cookies sent in plaintext over HTTP",
         "Use of willselfdestruct.com service to send anonymous harassment email"
@@ -26,7 +26,7 @@
     },
     {
       "artifact_id": "ART-002",
-      "content": "Email #1: badguy@hotmail.com | Date: July 13 | Email #2: willselfdestruct.com | Message: 'you can't find us and you can't hide from us. Stop teaching. Start running.' | Identified account: jcoach@gmail.com → Johnny Coach (Chem 109 student)",
+      "content": "Email #1: badguy@hotmail.com | Date: July 13 | Email #2: willselfdestruct.com | Message: 'you can't find us and you can't hide from us. Stop teaching. Start running.' | Identified account: jcoachj@gmail.com → Johnny Coach (Chem 109 student)",
       "forensic_anomalies": [
         "Explicit threat message sent through self-destructing service",
         "Gmail account jcoach@gmail.com was identified via plaintext cookies in the pcap"

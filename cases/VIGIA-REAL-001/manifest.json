@@ -11,8 +11,8 @@
     },
     {
       "filename": "ground_truth.json",
-      "sha256": "7d46e1595b879a95d880570ebea11bb6855ccc1423658960d7a104726501ac9c",
-      "size_bytes": 1506,
+      "sha256": "0e1510532226dda7c3cd6a3ada8c6949a61cc3ff52ab965b5a5bd28a1f620d6e",
+      "size_bytes": 2740,
       "role": "scoring_reference"
     },
     {
